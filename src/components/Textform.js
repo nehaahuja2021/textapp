@@ -27,7 +27,7 @@ export default function Textform(props) {
    }
    const [text, setText] = useState('');
    return (
-      <>
+      <div>
          <div className="container">
             <h3>{props.heading} </h3>
             <div className="mb-3">
@@ -44,7 +44,7 @@ export default function Textform(props) {
             <p>  {0.008 * text.split(" ").length} Minutes Read</p>
             <p> Preview : {text}</p>
          </div>
-      </>
+      </div>
 
 
    )

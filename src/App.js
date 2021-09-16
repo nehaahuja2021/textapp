@@ -1,4 +1,5 @@
 /*import logo from './logo.svg';*/
+import React from 'react'
 import './App.css';
 import About from './components/About';
 import Navbar from './components/Navbar';
@@ -9,26 +10,27 @@ import {
   Switch,
   Route,
   Link
+
 } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <Router>
-        <Navbar title="TextApp" About="About TextApp" />
-        <div className="container my-3">
-          <Switch>
-            <Route path="/about">
-              <About />
-            </Route>
-            <Route path="/">
-              <Textform heading="Enter the text to analyze" />
-            </Route>
-          </Switch>
-        </div>
-      </Router>
 
-    </>
+    <Router>
+      <Navbar title="TextApp" About="About TextApp" />
+      <div className="container my-3">
+        <Switch>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/">
+            <Textform heading="Enter the text to analyze" />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
+
+
   );
 
 }
