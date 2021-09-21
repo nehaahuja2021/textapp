@@ -2,11 +2,11 @@
 
 
 
-##Link: https://apptext-4u.herokuapp.com/
+# Link: https://apptext-4u.herokuapp.com/
 
 
 
-### `Features`
+# `Features`
 
 Convert Text to LowerCase, UpperCase, Copies Text, Deletes Text, Dark or Light Modes can be enabled
 
