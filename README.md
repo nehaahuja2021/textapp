@@ -1,8 +1,8 @@
-#Text App ( created using REACT Functional Components + Bootstrap)
+# Text App ( created using REACT Functional Components + Bootstrap)
 
 
 
-#Link: https://apptext-4u.herokuapp.com/**
+#Link: https://apptext-4u.herokuapp.com/
 
 
 
